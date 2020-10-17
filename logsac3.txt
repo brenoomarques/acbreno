@@ -1,0 +1,26 @@
+2020-10-17T21:44:36.926993+00:00 app[api]: Release v1 created by user breno.silva@aluno.faculdadeimpacta.com.br
+2020-10-17T21:44:36.926993+00:00 app[api]: Initial release by user breno.silva@aluno.faculdadeimpacta.com.br
+2020-10-17T21:44:37.559114+00:00 app[api]: Enable Logplex by user breno.silva@aluno.faculdadeimpacta.com.br
+2020-10-17T21:44:37.559114+00:00 app[api]: Release v2 created by user breno.silva@aluno.faculdadeimpacta.com.br
+2020-10-17T21:44:48.000000+00:00 app[api]: Build started by user breno.silva@aluno.faculdadeimpacta.com.br
+2020-10-17T21:45:13.274570+00:00 app[api]: Deploy 6baa610d by user breno.silva@aluno.faculdadeimpacta.com.br
+2020-10-17T21:45:13.274570+00:00 app[api]: Release v3 created by user breno.silva@aluno.faculdadeimpacta.com.br
+2020-10-17T21:45:13.286745+00:00 app[api]: Scaled to web@1:Free by user breno.silva@aluno.faculdadeimpacta.com.br
+2020-10-17T21:45:17.136938+00:00 heroku[web.1]: Starting process with command `python primos.py`
+2020-10-17T21:45:19.753508+00:00 app[web.1]: Traceback (most recent call last):
+2020-10-17T21:45:19.753553+00:00 app[web.1]: File "primos.py", line 5, in <module>
+2020-10-17T21:45:19.753753+00:00 app[web.1]: app = Flask(name)
+2020-10-17T21:45:19.753806+00:00 app[web.1]: NameError: name 'name' is not defined
+2020-10-17T21:45:19.826640+00:00 heroku[web.1]: Process exited with status 1
+2020-10-17T21:45:19.873381+00:00 heroku[web.1]: State changed from starting to crashed
+2020-10-17T21:45:19.876232+00:00 heroku[web.1]: State changed from crashed to starting
+2020-10-17T21:45:21.000000+00:00 app[api]: Build succeeded
+2020-10-17T21:45:22.571774+00:00 heroku[web.1]: Starting process with command `python primos.py`
+2020-10-17T21:45:24.630435+00:00 app[web.1]: Traceback (most recent call last):
+2020-10-17T21:45:24.630463+00:00 app[web.1]: File "primos.py", line 5, in <module>
+2020-10-17T21:45:24.630583+00:00 app[web.1]: app = Flask(name)
+2020-10-17T21:45:24.630606+00:00 app[web.1]: NameError: name 'name' is not defined
+2020-10-17T21:45:24.690443+00:00 heroku[web.1]: Process exited with status 1
+2020-10-17T21:45:24.722015+00:00 heroku[web.1]: State changed from starting to crashed
+2020-10-17T21:46:01.403714+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=brenoac03.herokuapp.com request_id=014d6c41-7cbc-4211-a7ec-f8868762758c fwd="189.62.46.25" dyno= connect= service= status=503 bytes= protocol=https
+2020-10-17T21:46:04.693675+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=brenoac03.herokuapp.com request_id=a15f828c-a39d-4253-98ab-1850129e271d fwd="189.62.46.25" dyno= connect= service= status=503 bytes= protocol=https
